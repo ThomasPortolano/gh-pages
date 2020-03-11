@@ -1,20 +1,35 @@
-body {
-  background-color:#0277BD;
+body{
+  font-family: Helvetica;
 }
 
-td, th,p {
-  color:#E3F2FD;
-  opacity:0.75;
+header, 
+h2, 
+.price{
+  font-weight:bold;
 }
 
-h1 {
-  font-size:28px;
+header{
+  font-size: 100px;
+  color: khaki;
   text-align: center;
-  color:#E3F2FD;
+  background-image: url("./medias/pattern.jpeg")
 }
 
-th {
-  text-align: left;
+h2{
+  font-size: 32px;
   font-weight: bold;
-  
+  color: white;
+}
+.price{
+  font-weight: bold;
+  color: blue;
+}
+#brushes{
+  background-color: mediumspringgreen;
+}
+#frames{
+  background-color: lightcoral;
+}
+#paint{
+  background-color: skyblue;
 }
